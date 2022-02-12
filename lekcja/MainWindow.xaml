@@ -1,0 +1,18 @@
+﻿<Window x:Class="lekcja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lekcja"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Button x:Name="BT_DODAWANIE" Content="Button" HorizontalAlignment="Left" Margin="64,76,0,0" VerticalAlignment="Top" Width="75" Click="BT_DODAWANIE_Click"/>
+		<Button x:Name="BT_ODEJMOWANIE" Content="Button" HorizontalAlignment="Left" Margin="64,101,0,0" VerticalAlignment="Top" Width="75" Click="BT_ODEJMOWANIE_Click"/>
+		<Button x:Name="BT_MNOZENIE" Content="Button" HorizontalAlignment="Left" Margin="64,126,0,0" VerticalAlignment="Top" Width="75" Click="BT_MNOZENIE_Click"/>
+		<TextBox x:Name="TB_DODAWANIE" HorizontalAlignment="Left" Height="20" Margin="105,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" TextChanged="TB_DODAWANIE_TextChanged"/>
+		<TextBox x:Name="TP_ODEJMOWANIE" HorizontalAlignment="Left" Height="20" Margin="50,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" TextChanged="TP_ODEJMOWANIE_TextChanged"/>
+		<Button x:Name="TB_DZIELENIE1" Content="Button" HorizontalAlignment="Left" Margin="64,151,0,0" VerticalAlignment="Top" Width="75" Click="B_DZIELENIE_Click"/>
+
+	</Grid>
+</Window>
